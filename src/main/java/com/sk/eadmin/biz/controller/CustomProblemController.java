@@ -1,4 +1,8 @@
-
+/*
+ * 
+ * 소스충돌1번
+ * 
+ */
 package com.sk.eadmin.biz.controller;
 
 import java.util.ArrayList;
@@ -41,7 +45,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class CustomProblemController {
   private final CustomerProblemService customerProblemService;
 
-  @Operation(summary = "고객접수문의 리스트 조회", description = "입력조건에 따라 접수된 고객 문의 리스트를 조회한다. 소스충돌 1번용입니다.")
+<<<<<<< HEAD
+  @Operation(summary = "고객접수문의 리스트 조회", description = "입력조건에 따라 접수된 고객 문의 리스트를 조회한다. 소스코드충돌1번테스트")
+=======
+  @Operation(summary = "고객접수문의 리스트 조회", description = "입력조건에 따라 접수된 고객 문의 리스트를 조회한다. 소스충돌 2번입니다. !!!!!!")
+>>>>>>> main
   @ApiResponses(value = {
       @ApiResponse(responseCode = "200", description = "OK"),
       @ApiResponse(responseCode = "403", description = "접속 권한이 없습니다.")
