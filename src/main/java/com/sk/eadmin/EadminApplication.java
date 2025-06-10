@@ -1,3 +1,5 @@
+// git hub 실습
+
 package com.sk.eadmin;
 
 import org.springframework.boot.SpringApplication;
@@ -8,6 +10,8 @@ public class EadminApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EadminApplication.class, args);
+
+		
 	}
 
 }
